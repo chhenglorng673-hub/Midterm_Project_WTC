@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="urf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Product| Gossip Girl</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="logo">Gossip<span>Girl</span></div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html" class="active">Products</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="member.html">Member</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+         <section class="page-header">
+            <div class="page-header-content">
+                <h1>Our Lipstick Collection</h1>
+                <p>Find your perfect shade and enjoy beautiful lips every day.</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="filter-container">
+                <button class="filter-btn active" onclick="filterSection('all')">All</button>
+                <button class="filter-btn" onclick="filterSection('Matte')">Matte Lipstick</button>
+                <button class="filter-btn" onclick="filterSelection('Glossy')">Glossy Lipstick</button>
+                <button class="filter-btn" onclick="filterSelection('Satin/Cream')">Satin/Cream Lipstick</button>
+                <button class="filter-btn" onclick="filterSelection('Liquid')">Liquid Lipstick</button>
+                <button class="filter-btn" onclick="filterSelection('Lip Balm')">Lip Balm</button>
+            </div>
+
+            <div class="product-grid" id="productGrid">
+
+                <div class="product-card Matte Lipstick">
+                <img src="https://i.pinimg.com/736x/67/f0/66/67f0660b10543afe795ab1fda5c59bf3.jpg"
+                alt="Rom&nd" class="product-image">
+                <div class="product-info"></div>
+                    <div class="product-rating">
+                        <span class="stars">★★★★★</span>
+                        <span class="reviews">(1,058 Reviews)</span>
+                    </div>
+                    <h3>Rom&nd : Lipstick 05 Evening</h3>
+                    <div class="product-action-row">
+                        <span class="price-orange">$8.99</span>
+                        <div class="action-controls">
+                            <div class="quantity-selector">
+                                <button class="qty-btn">-</button>
+                                <span class="qty-btn">1</span>
+                                <button class="qty-btn">+</button>
+                            </div>
+                            <button class="btn-add-orange">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="9" cy="21" r="1"></circle>
+                                    <circle cx="20" cy="21" r="1"></circle>
+                                    <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                            
+                                </svg> Add
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            <div class="product-card Glossy">
+                <img src="https://i.pinimg.com/736x/ca/cc/98/cacc98445693ee5c36d727b94bb37220.jpg"
+                alt="Colorgrarm" class="product-image">
+                <div class="product-info"></div>
+                    <div class="product-rating">
+                        <span class="stars">★★★★★</span>
+                        <span class="reviews">(489 Reviews)</span>
+                    </div>
+                    <h3>Colorgrarm : Fruity Glass Tint 14</h3>
+                    <div class="product-action-row">
+                        <span class="price-orange">$12.99</span>
+                        <div class="action-controls">
+                            <div class="quantity-selector">
+                                <button class="qty-btn">-</button>
+                                <span class="qty-btn">1</span>
+                                <button class="qty-btn">+</button>
+                            </div>
+                            <button class="btn-add-orange">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="9" cy="21" r="1"></circle>
+                                    <circle cx="20" cy="21" r="1"></circle>
+                                    <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                            
+                                </svg> Add
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            <div class="product-card Satin/Cream">
+                <img src="https://i.pinimg.com/736x/8f/22/36/8f223630993bac0bc80ca116f78b7a27.jpg"
+                alt="Novabeauty" class="product-image">
+                <div class="product-info">
+                    <div class="product-rating">
+                        <span class="stars">★★★★★</span>
+                        <span class="reviews">(1,240 Reviews)</span>
+                    </div>
+                    <h3>Novabeauty : Dream | fashion</h3>
+                    <div class="product-action-row">
+                        <span class="price-orange">$12.99</span>
+                        <div class="action-controls">
+                            <div class="quantity-selector">
+                                <button class="qty-btn">-</button>
+                                <span class="qty-val">1</span>
+                                <button class="qty-btn">+</button>
+                            </div>
+                            <button class="btn-add-orange">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="9" cy="21" r="1"></circle>
+                                    <circle cx="20" cy="21" r="1"></circle>
+                                    <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                                </svg> Add
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card Liquid">
+                <img src="https://i.pinimg.com/736x/8a/e5/e3/8ae5e3cdaeaff08b0087fb7e3f20b7e7.jpg"
+                alt="peripera" class="product-image">
+                <div class="product-info">
+                    <div class="product-rating">
+                        <span class="stars">★★★★★</span>
+                        <span class="reviews">(590 Reviews)</span>
+                    </div>
+                    <h3>Peripera : Naturally Moisurizing</h3>
+                    <div class="product-action-row">
+                        <span class="price-orange">$12.99</span>
+                        <div class="action-controls">
+                            <div class="quantity-selector">
+                                <button class="qty-btn">-</button>
+                                <span class="qty-val">1</span>
+                                <button class="qty-btn">+</button>
+                            </div>
+                            <button class="btn-add-orange">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="9" cy="21" r="1"></circle>
+                                    <circle cx="20" cy="21" r="1"></circle>
+                                    <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                            </svg> Add
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card Lip Balm">
+                <img src="https://i.pinimg.com/736x/0f/c5/dc/0fc5dcf37ef364ed0f726f5a6591bf38.jpg"
+                alt="Clarins" class="product-image">
+                <div class="product-info">
+                    <div class="product-rating">
+                        <span class="stars">★★★★★</span>
+                        <span class="reviews">(1,709 Reviews)</span>
+                    </div>
+                    <h3>Clarin Lip Comfort Oil Balm : 01 Pale Pink </h3>
+                    <div class="product-action-row">
+                        <span class="price-orange">$32.00</span>
+                        <div class="action-controls">
+                            <div class="quantity-selector">
+                                <button class="qty-btn">-</button>
+                                <span class="qty-val">1</span>
+                                <button class="qty-btn">+</button>
+                            </div>
+                            <button class="btn-add-orange">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none"
+                                stroke="currrentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="9" cy="21" r="1"></circle>
+                                    <circle cx="20" cy="21" r="1"></circle>
+                                    <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                                </svg> Add
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card Matte Lipstick">
+                <img src="https://i.pinimg.com/1200x/8d/e0/f1/8de0f1399c5f0d47643653b43a7a47f1.jpg"
+                alt="Rom&nd" class="product-image">
+                <div class="product-info">
+                    <div class="product-rating">
+                        <span class="stars">★★★★★</span>
+                        <span class="reviews">(1,609 Reviews)</span>
+                    </div>
+                    <h3>Rom&nd : #08 Melting Balm </h3>
+                    <div class="product-action-row">
+                        <span class="price-orange">$14.00</span>
+                        <div class="action-controls">
+                            <div class="quantity-selector">
+                                <button class="qty-btn">-</button>
+                                <span class="qty-val">1</span>
+                                <button class="qty-btn">+</button>
+                            </div>
+                            <button class="btn-add-orange">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none"
+                                stroke="currrentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="9" cy="21" r="1"></circle>
+                                    <circle cx="20" cy="21" r="1"></circle>
+                                    <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                                </svg> Add
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card Glossy Lipstick">
+                <img src="https://i.pinimg.com/1200x/1a/f2/77/1af277e2b1b8f90d91d9089d78337eb6.jpg"
+                alt="Judydoll Ice Watery" class="product-image">
+                <div class="product-info">
+                    <div class="product-rating">
+                        <span class="stars">★★★★★</span>
+                        <span class="reviews">(980 Reviews)</span>
+                    </div>
+                    <h3>Judydoll Ice Watery : #06 Oolong Classic </h3>
+                    <div class="product-action-row">
+                        <span class="price-orange">$13.99</span>
+                        <div class="action-controls">
+                            <div class="quantity-selector">
+                                <button class="qty-btn">-</button>
+                                <span class="qty-val">1</span>
+                                <button class="qty-btn">+</button>
+                            </div>
+                            <button class="btn-add-orange">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none"
+                                stroke="currrentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="9" cy="21" r="1"></circle>
+                                    <circle cx="20" cy="21" r="1"></circle>
+                                    <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                                </svg> Add
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card Satin/Cream Lipstick">
+                <img src="https://i.pinimg.com/736x/b7/ea/6c/b7ea6c0156d22cd7519f6135d15bef55.jpg"
+                alt="Rom&nd" class="product-image">
+                <div class="product-info">
+                    <div class="product-rating">
+                        <span class="stars">★★★★★</span>
+                        <span class="reviews">(730 Reviews)</span>
+                    </div>
+                    <h3>Rom&nd : #18 Mullefd Peach </h3>
+                    <div class="product-action-row">
+                        <span class="price-orange">$10.00</span>
+                        <div class="action-controls">
+                            <div class="quantity-selector">
+                                <button class="qty-btn">-</button>
+                                <span class="qty-val">1</span>
+                                <button class="qty-btn">+</button>
+                            </div>
+                            <button class="btn-add-orange">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none"
+                                stroke="currrentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="9" cy="21" r="1"></circle>
+                                    <circle cx="20" cy="21" r="1"></circle>
+                                    <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                                </svg> Add
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card Liquid">
+                <img src="https://i.pinimg.com/1200x/46/d5/b3/46d5b3ee5f3a65b332b141b8f2b15c1d.jpg"
+                alt="Muzigae mansion" class="product-image">
+                <div class="product-info">
+                    <div class="product-rating">
+                        <span class="stars">★★★★★</span>
+                        <span class="reviews">(980 Reviews)</span>
+                    </div>
+                    <h3>Muzigae Mansion : #011 Poise </h3>
+                    <div class="product-action-row">
+                        <span class="price-orange">$14.99</span>
+                        <div class="action-controls">
+                            <div class="quantity-selector">
+                                <button class="qty-btn">-</button>
+                                <span class="qty-val">1</span>
+                                <button class="qty-btn">+</button>
+                            </div>
+                            <button class="btn-add-orange">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none"
+                                stroke="currrentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="9" cy="21" r="1"></circle>
+                                    <circle cx="20" cy="21" r="1"></circle>
+                                    <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                                </svg> Add
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card Lip Balm">
+                <img src="https://i.pinimg.com/1200x/e9/c9/fd/e9c9fd48161dd2eddaca53378878147b.jpg"
+                alt="Rom&nd" class="product-image">
+                <div class="product-info">
+                    <div class="product-rating">
+                        <span class="stars">★★★★★</span>
+                        <span class="reviews">(1,609 Reviews)</span>
+                    </div>
+                    <h3>Rom&nd : #Melting Balm 04 Hippies Berry </h3>
+                    <div class="product-action-row">
+                        <span class="price-orange">$8.44</span>
+                        <div class="action-controls">
+                            <div class="quantity-selector">
+                                <button class="qty-btn">-</button>
+                                <span class="qty-val">1</span>
+                                <button class="qty-btn">+</button>
+                            </div>
+                            <button class="btn-add-orange">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none"
+                                stroke="currrentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="9" cy="21" r="1"></circle>
+                                    <circle cx="20" cy="21" r="1"></circle>
+                                    <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                                </svg> Add
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card Matte">
+                <img src="https://i.pinimg.com/1200x/24/91/65/24916508bac59c93c2105448ca186ea1.jpg"
+                alt="PRADA" class="product-image">
+                <div class="product-info">
+                    <div class="product-rating">
+                        <span class="stars">★★★★★</span>
+                        <span class="reviews">(1,090 Reviews)</span>
+                    </div>
+                    <h3>PRADA : B101 Tiepolo </h3>
+                    <div class="product-action-row">
+                        <span class="price-orange">$50.00</span>
+                        <div class="action-controls">
+                            <div class="quantity-selector">
+                                <button class="qty-btn">-</button>
+                                <span class="qty-val">1</span>
+                                <button class="qty-btn">+</button>
+                            </div>
+                            <button class="btn-add-orange">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none"
+                                stroke="currrentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="9" cy="21" r="1"></circle>
+                                    <circle cx="20" cy="21" r="1"></circle>
+                                    <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                                </svg> Add
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card Glossy Lipstick">
+                <img src="https://i.pinimg.com/736x/27/3d/47/273d4765d634b62a300194ce38693076.jpg"
+                alt="Peripera" class="product-image">
+                <div class="product-info">
+                    <div class="product-rating">
+                        <span class="stars">★★★★★</span>
+                        <span class="reviews">(890 Reviews)</span>
+                    </div>
+                    <h3>Peripera : Non-Sticky(006) </h3>
+                    <div class="product-action-row">
+                        <span class="price-orange">$12.99</span>
+                        <div class="action-controls">
+                            <div class="quantity-selector">
+                                <button class="qty-btn">-</button>
+                                <span class="qty-val">1</span>
+                                <button class="qty-btn">+</button>
+                            </div>
+                            <button class="btn-add-orange">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none"
+                                stroke="currrentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="9" cy="21" r="1"></circle>
+                                    <circle cx="20" cy="21" r="1"></circle>
+                                    <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                                </svg> Add
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card Satin/Cream Lipstick">
+                <img src="https://i.pinimg.com/1200x/be/55/1b/be551bdb180521672d8ac809d6a7c5dd.jpg"
+                alt="Revlon" class="product-image">
+                <div class="product-info">
+                    <div class="product-rating">
+                        <span class="stars">★★★★★</span>
+                        <span class="reviews">(1,590 Reviews)</span>
+                    </div>
+                    <h3>Revlon : #463  </h3>
+                    <div class="product-action-row">
+                        <span class="price-orange">$10.99</span>
+                        <div class="action-controls">
+                            <div class="quantity-selector">
+                                <button class="qty-btn">-</button>
+                                <span class="qty-val">1</span>
+                                <button class="qty-btn">+</button>
+                            </div>
+                            <button class="btn-add-orange">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none"
+                                stroke="currrentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="9" cy="21" r="1"></circle>
+                                    <circle cx="20" cy="21" r="1"></circle>
+                                    <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                                </svg> Add
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card Liquid">
+                <img src="https://i.pinimg.com/1200x/fe/a0/d2/fea0d236df1f6a847e3d60ffd0024386.jpg"
+                alt="I'M MEME Lip Silhouette Gloss Tint" class="product-image">
+                <div class="product-info">
+                    <div class="product-rating">
+                        <span class="stars">★★★★★</span>
+                        <span class="reviews">(1,590 Reviews)</span>
+                    </div>
+                    <h3>I'M MEME Lip Silhouette Gloss Tint :#06 Romantic rose</h3>
+                    <div class="product-action-row">
+                        <span class="price-orange">$15.00</span>
+                        <div class="action-controls">
+                            <div class="quantity-selector">
+                                <button class="qty-btn">-</button>
+                                <span class="qty-val">1</span>
+                                <button class="qty-btn">+</button>
+                            </div>
+                            <button class="btn-add-orange">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none"
+                                stroke="currrentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="9" cy="21" r="1"></circle>
+                                    <circle cx="20" cy="21" r="1"></circle>
+                                    <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                                </svg> Add
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card Lip Balm">
+                <img src="https://i.pinimg.com/1200x/69/a5/a9/69a5a94897e637e8a84cd2314bcc3ab3.jpg"
+                alt="Rom&nd Glasting Melting Balm" class="product-image">
+                <div class="product-info">
+                    <div class="product-rating">
+                        <span class="stars">★★★★★</span>
+                        <span class="reviews">(1,389 Reviews)</span>
+                    </div>
+                    <h3>Rom&nd Glasting Melting Balm:#05 Kaya Fig</h3>
+                    <div class="product-action-row">
+                        <span class="price-orange">$8.00</span>
+                        <div class="action-controls">
+                            <div class="quantity-selector">
+                                <button class="qty-btn">-</button>
+                                <span class="qty-val">1</span>
+                                <button class="qty-btn">+</button>
+                            </div>
+                            <button class="btn-add-orange">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none"
+                                stroke="currrentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="9" cy="21" r="1"></circle>
+                                    <circle cx="20" cy="21" r="1"></circle>
+                                    <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                                </svg> Add
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card Matte Lipstick">
+                <img src="https://i.pinimg.com/736x/73/0e/01/730e01d882a8d58c50a9f023e6f1b31c.jpg"
+                alt="M·A·C Cosmetics Powder Kiss Lipstick " class="product-image">
+                <div class="product-info">
+                    <div class="product-rating">
+                        <span class="stars">★★★★★</span>
+                        <span class="reviews">(1,290 Reviews)</span>
+                    </div>
+                    <h3>M·A·C Cosmetics Powder Kiss Lipstick :#Marrakesh-Mere</h3>
+                    <div class="product-action-row">
+                        <span class="price-orange">$26.00</span>
+                        <div class="action-controls">
+                            <div class="quantity-selector">
+                                <button class="qty-btn">-</button>
+                                <span class="qty-val">1</span>
+                                <button class="qty-btn">+</button>
+                            </div>
+                            <button class="btn-add-orange">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none"
+                                stroke="currrentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="9" cy="21" r="1"></circle>
+                                    <circle cx="20" cy="21" r="1"></circle>
+                                    <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                                </svg> Add
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card Glossy Liptick">
+                <img src="https://i.pinimg.com/1200x/63/dd/8f/63dd8f899aba77f30abf350c91b4017e.jpg"
+                alt="MARS Cosmetics Candylicious Colored Lip Gloss" class="product-image">
+                <div class="product-info">
+                    <div class="product-rating">
+                        <span class="stars">★★★★★</span>
+                        <span class="reviews">(1,090 Reviews)</span>
+                    </div>
+                    <h3>MARS Cosmetics Candylicious Colored Lip Gloss :#11 Toffee Twirl</h3>
+                    <div class="product-action-row">
+                        <span class="price-orange">$6.99</span>
+                        <div class="action-controls">
+                            <div class="quantity-selector">
+                                <button class="qty-btn">-</button>
+                                <span class="qty-val">1</span>
+                                <button class="qty-btn">+</button>
+                            </div>
+                            <button class="btn-add-orange">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none"
+                                stroke="currrentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="9" cy="21" r="1"></circle>
+                                    <circle cx="20" cy="21" r="1"></circle>
+                                    <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                                </svg> Add
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card Satin/Cream">
+                <img src="https://i.pinimg.com/1200x/8e/8d/a9/8e8da9221df948f552b7bc8720c8a818.jpg"
+                alt="Maybelline Color Sensational" class="product-image">
+                <div class="product-info">
+                    <div class="product-rating">
+                        <span class="stars">★★★★★</span>
+                        <span class="reviews">(1,389 Reviews)</span>
+                    </div>
+                    <h3>Maybelline Color sensaitonal : #222 Flush Punch</h3>
+                    <div class="product-action-row">
+                        <span class="price-orange">$9.00</span>
+                        <div class="action-controls">
+                            <div class="quantity-selector">
+                                <button class="qty-btn">-</button>
+                                <span class="qty-val">1</span>
+                                <button class="qty-btn">+</button>
+                            </div>
+                            <button class="btn-add-orange">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none"
+                                stroke="currrentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="9" cy="21" r="1"></circle>
+                                    <circle cx="20" cy="21" r="1"></circle>
+                                    <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                                </svg> Add
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card Liquid">
+                <img src="https://i.pinimg.com/736x/10/b8/aa/10b8aacbbaf04d6a7be310d04b879425.jpg"
+                alt="HERA Sensual Powder Matte Liquid holiholic" class="product-image">
+                <div class="product-info">
+                    <div class="product-rating">
+                        <span class="stars">★★★★★</span>
+                        <span class="reviews">(1,389 Reviews)</span>
+                    </div>
+                    <h3>HERA Sensual Powder Matte Liquid holiholic : #435 Pampas</h3>
+                    <div class="product-action-row">
+                        <span class="price-orange">$35.00</span>
+                        <div class="action-controls">
+                            <div class="quantity-selector">
+                                <button class="qty-btn">-</button>
+                                <span class="qty-val">1</span>
+                                <button class="qty-btn">+</button>
+                            </div>
+                            <button class="btn-add-orange">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none"
+                                stroke="currrentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="9" cy="21" r="1"></circle>
+                                    <circle cx="20" cy="21" r="1"></circle>
+                                    <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                                </svg> Add
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card Lip Balm">
+                <img src="https://i.pinimg.com/236x/ef/ea/e8/efeae81bf5e90c4fa9a5b993a7289911.jpg"
+                alt="Dior Addict Lip Glow Lip Balm Dior" class="product-image">
+                <div class="product-info">
+                    <div class="product-rating">
+                        <span class="stars">★★★★★</span>
+                        <span class="reviews">(1,389 Reviews)</span>
+                    </div>
+                    <h3>Dior Addict Lip Glow Lip Balm Dior : #001 Pink/h3>
+                    <div class="product-action-row">
+                        <span class="price-orange">$35.00</span>
+                        <div class="action-controls">
+                            <div class="quantity-selector">
+                                <button class="qty-btn">-</button>
+                                <span class="qty-val">1</span>
+                                <button class="qty-btn">+</button>
+                            </div>
+                            <button class="btn-add-orange">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none"
+                                stroke="currrentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="9" cy="21" r="1"></circle>
+                                    <circle cx="20" cy="21" r="1"></circle>
+                                    <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                                </svg> Add
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <footer>
+            <div class="footer-content">
+                <div class="footer-logo">Gossip<span>Girl</span>
+                </div>
+                <div class="footer-links">
+                    <a href="index.html">Home</a>
+                    <a href="product.html">Product</a>
+                    <a href="about.html">About</a>
+                    <a href="member.html">Member</a>
+                    <a href="contact.html">Contact Us</a>
+                </div>
+            </div>
+        </footer>
+    </body>
+    </html>
